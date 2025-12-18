@@ -2,6 +2,10 @@
     font-family: garet;
     src: url(tipografias/Garet-Book.ttf);
 }
+@font-face{
+    font-family: sun;
+    src: url(tipografias/Sunlight\ Dreams.otf);
+}
 
 * {
     margin: 0;
@@ -12,7 +16,7 @@
 body {
     font-family: garet;
     background-color: #FFFFEE;
-    color: #e0e0e0;
+    color: #6d6d6d;
 }
 
 .container {
@@ -97,6 +101,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+    font-family: sun;
 }
 
 .icon-button {
