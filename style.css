@@ -241,7 +241,14 @@ body {
     font-size: 20px;
 }
 
-.content ul ol{
+.content ul{
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #6d6d6d;
+    font-size: 20px;
+}
+
+.content ol{
     line-height: 1.8;
     margin-bottom: 20px;
     color: #6d6d6d;
