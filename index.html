@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Barra Lateral - Estilo Moderno</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <button class="icon-button mobile-toggle" onclick="toggleSidebar()">☰</button>
+
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <button class="toggle-btn" onclick="toggleCollapse()" title="Colapsar/Expandir">
+                    <span id="toggleIcon">◀</span>
+                </button>
+                <span class="sidebar-title">Mi Aplicación</span>
+                <button class="icon-button primary" title="Crear nuevo">+</button>
+            </div>
+
+            <button class="menu-item active" data-section="identidad">
+                <span class="menu-icon">🏢</span>
+                <span>Identidad Corporativa y Mensaje</span>
+            </button>
+
+            <button class="menu-item" data-section="elementos">
+                <span class="menu-icon">🧩</span>
+                <span>Elementos de la Empresa</span>
+            </button>
+
+            <button class="menu-item" data-section="creacion">
+                <span class="menu-icon">💡</span>
+                <span>Creación del Producto</span>
+            </button>
+
+            <button class="menu-item" data-section="contenido">
+                <span class="menu-icon">📝</span>
+                <span>Contenido</span>
+            </button>
+
+            <button class="menu-item" data-section="diseno">
+                <span class="menu-icon">🎨</span>
+                <span>Diseño y Experiencia de Usuario</span>
+            </button>
+
+            <div class="section-title">Artefactos</div>
+
+            <div class="artifact-item">
+                <div class="artifact-title">Ejemplo de Barra Lateral</div>
+                <div class="artifact-type">Artefacto • HTML</div>
+            </div>
+
+            <div class="artifact-item">
+                <div class="artifact-title">Dashboard Interactivo</div>
+                <div class="artifact-type">Artefacto • React</div>
+            </div>
+
+            <div class="artifact-item">
+                <div class="artifact-title">Visualización de Datos</div>
+                <div class="artifact-type">Artefacto • SVG</div>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="section-content" id="identidad">
+                <h1>Identidad Corporativa y Mensaje</h1>
+                <p>En esta sección puedes definir la identidad de tu empresa, incluyendo la misión, visión y valores corporativos.</p>
+                <p>Define el tono de comunicación, la personalidad de tu marca y el mensaje principal que quieres transmitir a tu audiencia.</p>
+                <p>Elementos clave: logo, colores corporativos, tipografía, eslogan y propuesta de valor única.</p>
+            </div>
+
+            <div class="section-content" id="elementos" style="display: none;">
+                <h1>Elementos de la Empresa</h1>
+                <p>Aquí puedes organizar todos los componentes esenciales de tu empresa.</p>
+                <p>Incluye información sobre la estructura organizacional, departamentos, recursos humanos y activos de la empresa.</p>
+                <p>También puedes documentar procesos internos, políticas empresariales y recursos disponibles.</p>
+            </div>
+
+            <div class="section-content" id="creacion" style="display: none;">
+                <h1>Creación del Producto</h1>
+                <p>Esta sección está dedicada al desarrollo y creación de tus productos o servicios.</p>
+                <p>Define las características del producto, el proceso de desarrollo, recursos necesarios y timeline de producción.</p>
+                <p>Incluye prototipos, especificaciones técnicas, pruebas de calidad y feedback de usuarios.</p>
+            </div>
+
+            <div class="section-content" id="contenido" style="display: none;">
+                <h1>Contenido</h1>
+                <p>Gestiona todo el contenido relacionado con tu empresa y productos.</p>
+                <p>Crea y organiza artículos, publicaciones, material de marketing, documentación técnica y recursos educativos.</p>
+                <p>Planifica tu estrategia de contenido, calendario editorial y métricas de rendimiento.</p>
+            </div>
+
+            <div class="section-content" id="diseno" style="display: none;">
+                <h1>Diseño y Experiencia de Usuario</h1>
+                <p>Enfócate en crear experiencias excepcionales para tus usuarios.</p>
+                <p>Define la arquitectura de información, flujos de usuario, wireframes y prototipos interactivos.</p>
+                <p>Realiza pruebas de usabilidad, recopila feedback y mejora continuamente la experiencia del usuario.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
