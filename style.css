@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border-right: 1px solid #3a3a3a;
+    border-right: 1px solid #FFFFAA;
     transition: width 0.3s, padding 0.3s;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .toggle-btn:hover {
-    background-color: #3a3a3a;
+    background-color: #FFFFAA;
 }
 
 .toggle-btn img {
@@ -102,7 +102,7 @@ body {
 .icon-button {
     width: 40px;
     height: 40px;
-    background-color: #3a3a3a;
+    background-color: #FFFFAA;
     border: none;
     border-radius: 8px;
     color: #e0e0e0;
@@ -115,7 +115,7 @@ body {
 }
 
 .icon-button:hover {
-    background-color: #4a4a4a;
+    background-color: #FFFCEE;
 }
 
 .icon-button.primary {
@@ -143,11 +143,11 @@ body {
 }
 
 .menu-item:hover {
-    background-color: #3a3a3a;
+    background-color: #FFFFAA;
 }
 
 .menu-item.active {
-    background-color: #3a3a3a;
+    background-color: #FFFFAA;
 }
 
 .menu-icon {
@@ -193,7 +193,7 @@ body {
 .content {
     flex: 1;
     padding: 40px;
-    background-color: #1a1a1a;
+    background-color: #FFFFEE;
 }
 
 .content h1 {
