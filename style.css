@@ -202,7 +202,7 @@ body {
 }
 
 .content h1 {
-    color: #ffffff;
+    color: #6d6d6d;
     margin-bottom: 20px;
     font-size: 32px;
 }
@@ -225,7 +225,7 @@ body {
 .content p {
     line-height: 1.8;
     margin-bottom: 20px;
-    color: #b0b0b0;
+    color: #6d6d6d;
     font-size: 16px;
 }
 
