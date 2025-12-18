@@ -8,12 +8,7 @@ function toggleCollapse() {
     const icon = document.getElementById('toggleIcon');
     
     sidebar.classList.toggle('collapsed');
-    
-    if (sidebar.classList.contains('collapsed')) {
-        icon.textContent = '▶';
-    } else {
-        icon.textContent = '◀';
-    }
+    icon.classList.toggle('rotated');
 }
 
 function showSection(sectionId) {
