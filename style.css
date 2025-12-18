@@ -100,7 +100,7 @@ body {
 .sidebar-title {
     font-size: 16px;
     font-weight: 600;
-    color: #5c5c5c;
+    color: #3361B0;
     font-family: sun;
 }
 
@@ -110,7 +110,7 @@ body {
     background-color: #FFFFAA;
     border: none;
     border-radius: 8px;
-    color: #3361B0;
+    color: #6d6d6d;
     cursor: pointer;
     display: flex;
     align-items: center;
