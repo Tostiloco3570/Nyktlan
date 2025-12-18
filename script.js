@@ -10,9 +10,9 @@ function toggleCollapse() {
     sidebar.classList.toggle('collapsed');
     
     if (sidebar.classList.contains('collapsed')) {
-        icon.textContent = '▶';
+        icon.textContent = '<img src="recursos/nik.jpg" style="border-radius: 100px;">';
     } else {
-        icon.textContent = '◀';
+        icon.textContent = '<img src="recursos/nik.jpg" style="border-radius: 100px;">';
     }
 }
 
