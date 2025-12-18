@@ -241,6 +241,12 @@ body {
     font-size: 20px;
 }
 
+.content ul {
+    margin-bottom: 20px;
+    color: #6d6d6d;
+    font-size: 20px;
+}
+
 /* Botón toggle para móviles */
 .mobile-toggle {
     display: none;
