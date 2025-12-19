@@ -292,9 +292,10 @@ body {
 
 iframe {
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
     max-width: 100%;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .producto-imagen {
@@ -329,13 +330,6 @@ iframe {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-video {
-    display: block;
-    margin: 30px auto;
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 .etiqueta {
     display: block;
