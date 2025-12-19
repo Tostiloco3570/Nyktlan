@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 body {
@@ -286,4 +287,18 @@ body {
     .content {
         padding: 80px 20px 40px 20px;
     }
+}
+
+.etiqueta {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
 }
