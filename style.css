@@ -350,3 +350,45 @@ iframe {
         margin: 0 auto;
     }
 }
+
+.valores-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.valor-card {
+    background-color: #FFFFCE;
+    border: 2px solid #3361B0;
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.valor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(51, 97, 176, 0.2);
+}
+
+.valor-titulo {
+    color: #3361B0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.valor-icono {
+    font-size: 24px;
+}
+
+.valor-descripcion {
+    color: #6d6d6d;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0;
+}
