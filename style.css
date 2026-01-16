@@ -956,6 +956,19 @@ iframe {
     color: #6d6d6d;
 }
 
+.prueba-parche {
+    background-color: #fff9e6;
+    border: 2px dashed #ffc107;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.prueba-parche h4 {
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
 .consejos-aplicacion {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
