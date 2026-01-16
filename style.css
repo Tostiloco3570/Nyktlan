@@ -1011,3 +1011,26 @@ iframe {
         padding: 8px;
     }
 }
+
+.prueba-parche ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.prueba-parche li {
+    margin-bottom: 8px;
+    color: #6d6d6d;
+    padding-left: 0;
+}
+
+.precaucion-item ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-left: 0;
+}
+
+.precaucion-item li {
+    margin-bottom: 8px;
+    color: #6d6d6d;
+}
